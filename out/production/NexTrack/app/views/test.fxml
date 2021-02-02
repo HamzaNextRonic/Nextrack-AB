@@ -1,0 +1,317 @@
+<Pane fx:id="pnlUpdateUsers" layoutX="10.0" layoutY="10.0" prefHeight="576.0" prefWidth="806.0"
+      style="-fx-background-color: #f1f1f1; -fx-background-radius: 10px;" visible="false">
+    <children>
+        <VBox fx:id="vboxtable5" alignment="TOP_RIGHT" layoutX="50.0" layoutY="99.0" prefHeight="432.0"
+              prefWidth="722.0"
+              style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px ">
+            <children>
+                <ScrollPane hbarPolicy="NEVER" prefHeight="358.0" prefWidth="721.0"
+                            style="-fx-background-color: #fff; -fx-background-radius: 10px; -fx-border-radius: 50px;"
+                            stylesheets="/app/views/style.css">
+                    <content>
+                        <VBox prefHeight="357.0" prefWidth="738.0"
+                              style="-fx-background-color: #fff; -fx-background-radius: 10px; -fx-border-radius: 50px;">
+                            <children>
+                                <HBox prefHeight="55.0" prefWidth="582.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+                                    <children>
+                                        <Label prefHeight="35.0" prefWidth="199.0" text="Nom"
+                                               textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="name_updated" prefHeight="35.0"
+                                                   prefWidth="450.0">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="55.0" prefWidth="623.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;"
+                                      stylesheets="/app/views/style.css">
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="34.0"
+                                               prefWidth="199.0" text="Prénom" textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="lastname_updated" prefHeight="35.0"
+                                                   prefWidth="450.0">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="55.0" prefWidth="623.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="30.0"
+                                               prefWidth="199.0" text="Nom d'utilisateur"
+                                               textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="username_updated" prefHeight="39.0"
+                                                   prefWidth="450.0">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="623.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="35.0"
+                                               prefWidth="209.0" text="Mot de passe" textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <PasswordField fx:id="password_updated" prefHeight="35.0"
+                                                       prefWidth="450.0"/>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="45.0" prefWidth="614.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="25.0"
+                                               prefWidth="210.0" text="Région" textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <ChoiceBox fx:id="region_updated" prefHeight="47.0"
+                                                   prefWidth="450.0"
+                                                   style="-fx-background-color: #ffffff; -fx-border-radius: 10px; -fx-background-radius: 10px;"  value="RégionTanger-Tétouan-Al Hoceïma">
+                                            <cursor>
+                                                <Cursor fx:constant="HAND"/>
+                                            </cursor>
+                                            <items>
+                                                <FXCollections fx:factory="observableArrayList">
+
+                                                    <String fx:value="RégionTanger-Tétouan-Al Hoceïma"/>
+                                                    <String fx:value="Région L'Oriental"/>
+                                                    <String fx:value="Région  Fès-Meknès"/>
+                                                    <String fx:value="Région Rabat-Salé-Kénitra"/>
+                                                    <String fx:value="Région Béni Mellal-Khénifra"/>
+                                                    <String fx:value="Région Casablanca-Settat"/>
+                                                    <String fx:value="Région Marrakech-Safi"/>
+                                                    <String fx:value="Région Drâa-Tafilalet"/>
+                                                    <String fx:value="Région Souss-Massa"/>
+                                                    <String fx:value="Région Guelmim-Oued Noun"/>
+                                                    <String fx:value="Région Laâyoune-Sakia El Hamra"/>
+                                                    <String fx:value="Région Dakhla-Oued Ed-Dahab"/>
+
+
+                                                </FXCollections>
+                                            </items>
+                                        </ChoiceBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="55.0" prefWidth="623.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;"
+                                      stylesheets="/app/views/style.css">
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="34.0"
+                                               prefWidth="199.0" text="Province" textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="province_updated" prefHeight="35.0"
+                                                   prefWidth="450.0">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+
+                                <!--                                                <HBox prefHeight="45.0" prefWidth="614.0"-->
+                                <!--                                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">-->
+                                <!--                                                    <children>-->
+                                <!--                                                        <Label contentDisplay="CENTER" prefHeight="25.0"-->
+                                <!--                                                               prefWidth="210.0" text="Statut" textFill="#060606">-->
+                                <!--                                                            <HBox.margin>-->
+                                <!--                                                                <Insets bottom="10.0" left="10.0" right="10.0"-->
+                                <!--                                                                        top="10.0"/>-->
+                                <!--                                                            </HBox.margin>-->
+                                <!--                                                            <opaqueInsets>-->
+                                <!--                                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>-->
+                                <!--                                                            </opaqueInsets>-->
+                                <!--                                                            <padding>-->
+                                <!--                                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>-->
+                                <!--                                                            </padding>-->
+                                <!--                                                            <font>-->
+                                <!--                                                                <Font name="System Bold" size="14.0"/>-->
+                                <!--                                                            </font>-->
+                                <!--                                                        </Label>-->
+                                <!--                                                        <CheckBox fx:id="status_updated" mnemonicParsing="false"-->
+                                <!--                                                                  prefHeight="47.0" prefWidth="45.0">-->
+                                <!--                                                            <cursor>-->
+                                <!--                                                                <Cursor fx:constant="HAND"/>-->
+                                <!--                                                            </cursor>-->
+                                <!--                                                        </CheckBox>-->
+                                <!--                                                    </children>-->
+                                <!--                                                </HBox>-->
+
+                                <HBox prefHeight="45.0" prefWidth="614.0"
+                                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+                                    <children>
+                                        <Label contentDisplay="CENTER" prefHeight="25.0"
+                                               prefWidth="210.0" text="Type" textFill="#060606">
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0"
+                                                        top="10.0"/>
+                                            </HBox.margin>
+                                            <opaqueInsets>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                                            </padding>
+                                            <font>
+                                                <Font name="System Bold" size="14.0"/>
+                                            </font>
+                                        </Label>
+                                        <ChoiceBox fx:id="type_updated" prefHeight="47.0"
+                                                   prefWidth="450.0"
+                                                   style="-fx-background-color: #ffffff; -fx-border-radius: 10px; -fx-background-radius: 10px;" value="Utilisateur" >
+                                            <cursor>
+                                                <Cursor fx:constant="HAND"/>
+                                            </cursor>
+                                            <items>
+                                                <FXCollections fx:factory="observableArrayList">
+
+                                                    <String fx:value="Administrateur"/>
+                                                    <String fx:value="Utilisateur"/>
+                                                </FXCollections>
+                                            </items>
+                                        </ChoiceBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <HBox alignment="CENTER_LEFT" prefHeight="81.0" prefWidth="722.0"
+                      style="-fx-background-color: #fff; -fx-border-radius: 50px; -fx-background-radius: 10px;">
+                    <children>
+                        <Pane prefHeight="39.0" prefWidth="14.0"/>
+                        <Button fx:id="btnUpdateUser" defaultButton="true" mnemonicParsing="false"
+                                onAction="#UpdateUser" prefHeight="25.0" prefWidth="195.0"
+                                style="-fx-background-color: #d9e719;" text="Valider la création"
+                                textFill="#323438">
+                            <font>
+                                <Font name="System Bold" size="12.0"/>
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="18.0" fitWidth="26.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <image>
+                                        <Image url="/app/images/add_user.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <cursor>
+                                <Cursor fx:constant="HAND"/>
+                            </cursor>
+                        </Button>
+                        <Pane prefHeight="39.0" prefWidth="33.0"/>
+                        <Button fx:id="btnCancelcUpdateUser" cancelButton="true" mnemonicParsing="false"
+                                onAction="#getUsers" style="-fx-background-color: #e52342;"
+                                text="Annuler" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="12.0"/>
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND"/>
+                            </cursor>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="832.0">
+            <children>
+                <Pane prefHeight="100.0" prefWidth="49.0"/>
+                <Label text="Modification du compte  utilisateur" textFill="#a09f9f">
+                    <font>
+                        <Font name="System Bold" size="36.0"/>
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</Pane>
+
+
+
+
+                
